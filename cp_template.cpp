@@ -14,7 +14,7 @@ const int Intmax = 2147483647;
 const int Intmin = -2147483648;
 const int mod = 1e9 + 7;
 
-ll binary_exponentiation(int n, int power)
+ll binary_exponentiation(int n, int power)//calculating n^power
 {
     ll ans = 1;
     while (power != 0)
